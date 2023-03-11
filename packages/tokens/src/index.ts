@@ -1,4 +1,9 @@
 export * from './colors'
 
-// import { colors } from '@eduardoslg/tokens/colors'
-// import { colors } from '@eduardoslg/tokens' ->> importar será assim.
+export * from './space'
+export * from './radii'
+
+export * from './fonts'
+export * from './font-sizes'
+export * from './font-weights'
+export * from './line-heights'
