@@ -9,3 +9,8 @@
 - [] Checkbox
 - [] Avatar
 - [] MultiStep
+
+
+
+# Assuntos importantes
+// tsup, monorepo
