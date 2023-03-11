@@ -13,4 +13,8 @@
 
 
 # Assuntos importantes
-// tsup, monorepo
+- tsup, monorepo
+
+# Alterações
+- alterações nos JSON's dos packages para conseguir importar coisas de um para o outro. ex:
+import { colors } from '@eduardoslg/tokens'
