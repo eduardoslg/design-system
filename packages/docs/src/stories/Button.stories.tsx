@@ -36,12 +36,14 @@ export default {
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
+
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
-    children: 'Create New',
+    children: 'Create new',
   },
 }
+
 export const Tertiary: StoryObj<ButtonProps> = {
   args: {
     variant: 'tertiary',

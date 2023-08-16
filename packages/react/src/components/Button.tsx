@@ -1,5 +1,5 @@
 import { styled } from '../styles'
-import { ComponentProps, ElementType } from 'react'
+import { ComponentProps } from '../types/ComponentProps'
 
 export const Button = styled('button', {
   all: 'unset',
@@ -10,12 +10,12 @@ export const Button = styled('button', {
   textAlign: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
+  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   gap: '$2',
-  padding: '0 $4',
 
   cursor: 'pointer',
 
@@ -26,10 +26,6 @@ export const Button = styled('button', {
 
   '&:disabled': {
     cursor: 'not-allowed',
-  },
-
-  '&:focus': {
-    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {
@@ -46,6 +42,7 @@ export const Button = styled('button', {
           backgroundColor: '$gray200',
         },
       },
+
       secondary: {
         color: '$ignite300',
         border: '2px solid $ignite500',
@@ -60,6 +57,7 @@ export const Button = styled('button', {
           borderColor: '$gray200',
         },
       },
+
       tertiary: {
         color: '$gray100',
 
@@ -77,6 +75,7 @@ export const Button = styled('button', {
       sm: {
         height: 38,
       },
+
       md: {
         height: 46,
       },
@@ -89,8 +88,6 @@ export const Button = styled('button', {
   },
 })
 
-export interface ButtonProps extends ComponentProps<typeof Button> {
-  as?: ElementType
-}
+export type ButtonProps = ComponentProps<typeof Button>
 
 Button.displayName = 'Button'

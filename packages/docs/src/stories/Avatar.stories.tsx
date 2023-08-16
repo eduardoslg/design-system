@@ -1,12 +1,12 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Avatar, AvatarProps } from '@eduardoslg/react'
 
 export default {
-  title: 'Data display/Avatar',
+  title: 'Data Display/Avatar',
   component: Avatar,
   args: {
-    src: 'https://github.com/eduardoslg.png',
-    alt: 'Eduardo Lage',
+    src: 'https://github.com/GBDev13.png',
+    alt: 'GB Dev',
   },
   argTypes: {
     src: {
@@ -15,7 +15,7 @@ export default {
       },
     },
   },
-} as Meta<AvatarProps>
+} as Meta
 
 export const Primary: StoryObj<AvatarProps> = {}
 

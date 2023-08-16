@@ -1,79 +1,80 @@
 declare const colors: {
-    white: string;
-    black: string;
-    gray100: string;
-    gray200: string;
-    gray400: string;
-    gray500: string;
-    gray600: string;
-    gray700: string;
-    gray800: string;
-    gray900: string;
-    ignite300: string;
-    ignite500: string;
-    ignite700: string;
-    ignite900: string;
+    readonly white: "#FFF";
+    readonly black: "#000";
+    readonly gray100: "#E1E1E6";
+    readonly gray200: "#A9A9B2";
+    readonly gray400: "#7C7C8A";
+    readonly gray500: "#505059";
+    readonly gray600: "#323238";
+    readonly gray700: "#29292E";
+    readonly gray800: "#202024";
+    readonly gray900: "#121214";
+    readonly ignite200: "#00d999";
+    readonly ignite300: "#00B37E";
+    readonly ignite500: "#00875F";
+    readonly ignite700: "#015F43";
+    readonly ignite900: "#00291D";
 };
 
 declare const space: {
-    1: string;
-    2: string;
-    3: string;
-    4: string;
-    5: string;
-    6: string;
-    7: string;
-    8: string;
-    10: string;
-    12: string;
-    16: string;
-    20: string;
-    40: string;
-    64: string;
-    80: string;
+    readonly 1: "0.25rem";
+    readonly 2: "0.5rem";
+    readonly 3: "0.75rem";
+    readonly 4: "1rem";
+    readonly 5: "1.25rem";
+    readonly 6: "1.5rem";
+    readonly 7: "1.75rem";
+    readonly 8: "2rem";
+    readonly 10: "2.5rem";
+    readonly 12: "3rem";
+    readonly 16: "4rem";
+    readonly 20: "5rem";
+    readonly 40: "10rem";
+    readonly 64: "16rem";
+    readonly 80: "20rem";
 };
 
 declare const radii: {
-    px: string;
-    xs: string;
-    sm: string;
-    md: string;
-    lg: string;
-    full: string;
+    readonly px: "1px";
+    readonly xs: "4px";
+    readonly sm: "6px";
+    readonly md: "8px";
+    readonly lg: "16px";
+    readonly full: "99999px";
 };
 
 declare const fonts: {
-    default: string;
-    code: string;
+    readonly default: "Roboto, sans-serif";
+    readonly code: "monospace";
 };
 
 declare const fontSizes: {
-    xxs: string;
-    xs: string;
-    sm: string;
-    md: string;
-    lg: string;
-    xl: string;
-    '2xl': string;
-    '4xl': string;
-    '5xl': string;
-    '6xl': string;
-    '7xl': string;
-    '8xl': string;
-    '9xl': string;
+    readonly xxs: "0.625rem";
+    readonly xs: "0.75rem";
+    readonly sm: "0.875rem";
+    readonly md: "1rem";
+    readonly lg: "1.125rem";
+    readonly xl: "1.25rem";
+    readonly '2xl': "1.5rem";
+    readonly '4xl': "2rem";
+    readonly '5xl': "2.25rem";
+    readonly '6xl': "3rem";
+    readonly '7xl': "4rem";
+    readonly '8xl': "4.5rem";
+    readonly '9xl': "6rem";
 };
 
 declare const fontWeights: {
-    regular: string;
-    medium: string;
-    bold: string;
+    readonly regular: "400";
+    readonly medium: "500";
+    readonly bold: "700";
 };
 
 declare const lineHeights: {
-    shorter: string;
-    short: string;
-    base: string;
-    tall: string;
+    readonly shorter: "125%";
+    readonly short: "140%";
+    readonly base: "160%";
+    readonly tall: "180%";
 };
 
 export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };

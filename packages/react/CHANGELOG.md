@@ -1,10 +1,10 @@
 # @eduardoslg/react
 
-## 2.0.1
+## 3.0.0
 
-### Patch Changes
+### Major Changes
 
-- Add option to pass reference to TextInput and adjust some styles
+- adeb2dd: Add display name to all components
 
 ## 2.0.0
 

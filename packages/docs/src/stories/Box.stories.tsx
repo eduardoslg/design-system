@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Box, BoxProps, Text } from '@eduardoslg/react'
 
 export default {
@@ -14,6 +14,6 @@ export default {
       },
     },
   },
-} as Meta<BoxProps>
+} as Meta
 
 export const Primary: StoryObj<BoxProps> = {}

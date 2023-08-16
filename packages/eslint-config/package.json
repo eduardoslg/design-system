@@ -1,11 +1,11 @@
 {
   "name": "@eduardoslg/eslint-config",
-  "version": "1.0.0",
   "license": "MIT",
+  "version": "1.0.0",
   "private": true,
   "main": "index.js",
   "devDependencies": {
-    "@rocketseat/eslint-config": "^1.2.0",
-    "eslint": "^8.36.0"
+    "@rocketseat/eslint-config": "^1.1.3",
+    "eslint": "^8.25.0"
   }
 }

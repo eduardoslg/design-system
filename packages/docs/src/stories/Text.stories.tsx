@@ -1,13 +1,13 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Text, TextProps } from '@eduardoslg/react'
 
 export default {
   title: 'Typography/Text',
   component: Text,
   args: {
-    size: 'md',
     children:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus quo magnam dolorum asperiores fugiat reprehenderit cupiditate perferendis optio alias vel architecto sequi eveniet facilis similique, ut reiciendis, repudiandae voluptas?',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad laudantium, perferendis, animi blanditiis dolorum omnis sint consequuntur consectetur optio repudiandae tempore laboriosam aspernatur a sit hic ratione aliquid ea autem.',
+    size: 'md',
   },
   argTypes: {
     size: {
@@ -31,7 +31,7 @@ export default {
       },
     },
   },
-} as Meta<TextProps>
+} as Meta
 
 export const Primary: StoryObj<TextProps> = {}
 

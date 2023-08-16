@@ -1,11 +1,11 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Heading, HeadingProps } from '@eduardoslg/react'
 
 export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
-    children: 'Custom Title',
+    children: 'Custom title',
     size: 'md',
   },
   argTypes: {
@@ -16,7 +16,7 @@ export default {
       },
     },
   },
-} as Meta<HeadingProps>
+} as Meta
 
 export const Primary: StoryObj<HeadingProps> = {}
 
