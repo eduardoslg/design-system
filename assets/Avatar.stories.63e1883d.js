@@ -1,0 +1,2 @@
+import{A as t}from"./index.1dae77d4.js";import"./index.90ad435b.js";import"./iframe.701c4792.js";import"./index.c78eb291.js";import"./jsx-runtime.4074b893.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/eduardoslg.png",alt:"Eduardo Lage"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,e as WithFallback,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.63e1883d.js.map
