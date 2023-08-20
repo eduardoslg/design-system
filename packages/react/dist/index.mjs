@@ -32,50 +32,51 @@ var __objRest = (source, exclude) => {
 
 // ../tokens/dist/index.mjs
 var colors = {
-  white: "#FFF",
-  black: "#000",
-  gray100: "#E1E1E6",
-  gray200: "#A9A9B2",
-  gray400: "#7C7C8A",
-  gray500: "#505059",
-  gray600: "#323238",
-  gray700: "#29292E",
-  gray800: "#202024",
-  gray900: "#121214",
-  ignite200: "#00d999",
-  ignite300: "#00B37E",
-  ignite500: "#00875F",
-  ignite700: "#015F43",
-  ignite900: "#00291D"
-};
-var space = {
-  1: "0.25rem",
-  2: "0.5rem",
-  3: "0.75rem",
-  4: "1rem",
-  5: "1.25rem",
-  6: "1.5rem",
-  7: "1.75rem",
-  8: "2rem",
-  10: "2.5rem",
-  12: "3rem",
-  16: "4rem",
-  20: "5rem",
-  40: "10rem",
-  64: "16rem",
-  80: "20rem"
-};
-var radii = {
-  px: "1px",
-  xs: "4px",
-  sm: "6px",
-  md: "8px",
-  lg: "16px",
-  full: "99999px"
-};
-var fonts = {
-  default: "Roboto, sans-serif",
-  code: "monospace"
+  gray50: "",
+  gray100: "",
+  gray200: "",
+  gray300: "",
+  gray400: "",
+  gray500: "",
+  gray600: "",
+  gray700: "",
+  gray800: "",
+  gray900: "",
+  red50: "",
+  red100: "",
+  red200: "",
+  red300: "",
+  red400: "",
+  red500: "",
+  red600: "",
+  red700: "",
+  red800: "",
+  red900: "",
+  violet50: "",
+  violet100: "",
+  violet200: "",
+  violet300: "",
+  violet400: "",
+  violet500: "",
+  violet600: "",
+  violet700: "",
+  violet800: "",
+  violet900: "",
+  primary50: "",
+  primary100: "",
+  primary200: "",
+  primary300: "",
+  primary400: "",
+  primary500: "",
+  primary600: "",
+  primary700: "",
+  primary800: "",
+  primary900: "",
+  appBackground: "",
+  shape: "",
+  textTitle: "",
+  textBase: "",
+  textSupport: ""
 };
 var fontSizes = {
   xxs: "0.625rem",
@@ -97,11 +98,65 @@ var fontWeights = {
   medium: "500",
   bold: "700"
 };
+var fonts = {
+  default: "Inter, sans-serif",
+  code: "monospace"
+};
 var lineHeights = {
   shorter: "125%",
   short: "140%",
   base: "160%",
   tall: "180%"
+};
+var radii = {
+  px: "1px",
+  xs: "4px",
+  sm: "6px",
+  md: "8px",
+  lg: "16px",
+  full: "99999px"
+};
+var space = {
+  0: "0px",
+  px: "1px",
+  0.5: "0.125rem",
+  1: "0.25rem",
+  1.5: "0.375rem",
+  2: "0.5rem",
+  2.5: "0.625rem",
+  3: "0.75rem",
+  3.5: "0.875rem",
+  4: "1rem",
+  5: "1.25rem",
+  6: "1.5rem",
+  7: "1.75rem",
+  8: "2rem",
+  9: "2.25rem",
+  10: "2.5rem",
+  11: "2.75rem",
+  12: "3rem",
+  14: "3.5rem",
+  16: "4rem",
+  20: "5rem",
+  24: "6rem",
+  28: "7rem",
+  32: "8rem",
+  36: "9rem",
+  40: "10rem",
+  44: "11rem",
+  48: "12rem",
+  52: "13rem",
+  56: "14rem",
+  60: "15rem",
+  64: "16rem",
+  72: "18rem",
+  80: "20rem",
+  96: "24rem",
+  auto: "auto",
+  full: "100%",
+  min: "min-content",
+  max: "max-content",
+  fit: "fit-content"
 };
 
 // src/styles/index.ts
